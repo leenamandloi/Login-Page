@@ -1,0 +1,116 @@
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Comforter&family=Quintessential&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><style>body {
+    font-family: 'Balsamiq Sans', cursive;
+    background: url('img/1.jpg');
+}
+
+.left {
+    position: absolute;
+    left: 17px;
+    top: 12px;
+    display: inline-block;
+}
+
+.left img {
+    width: 117px;
+    padding: 0px 24px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.right {
+    position: absolute;
+    right: 17px;
+    top: 12px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 17px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    color: maroon;
+    background: rgb(240, 251, 255);
+    text-decoration: underline;
+}
+
+.mid {
+    display: block;
+    width: 44%;
+    margin: 12px auto;
+}
+
+.btn {
+    margin: 9px;
+    border-radius: 6px;
+    background: rgb(141, 219, 245);
+    color: black;
+    border: 3px solid rgb(87, 208, 248);
+    font-size: 13px;
+    padding: 4px 6px;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.btn:hover {
+    color: maroon;
+    background-color: rgb(189, 235, 250);
+}
+
+.container {
+    margin: 120px 540px;
+    padding: 0px 30px;
+    width: 27%;
+    border-radius: 7px;
+}
+
+.center {
+    color: black;
+    margin-bottom: 7px;
+}
+
+.form-group input {
+    color: black;
+    font-size: 14px;
+    width: 230px;
+    display: block;
+    border: 2px solid black;
+    text-align: center;
+    margin: 7px 0px;
+    padding: 7px 0px;
+    border-radius: 17px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.nextbtn {
+    margin: 9px 0px;
+    border-radius: 6px;
+    background: rgb(141, 219, 245);
+    color: black;
+    border: 3px solid rgb(87, 208, 248);
+    font-size: 13px;
+    padding: 4px 6px;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.nextbtn:hover {
+    color: maroon;
+    background-color: rgb(189, 235, 250);
+}
+
+</style>

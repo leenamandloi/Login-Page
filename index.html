@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEENA</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Comforter&family=Quintessential&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        font-family: 'Balsamiq Sans', cursive;
+        background: url('img/1.jpg') no-repeat center center/cover;
+    }
+    
+    .left {
+        position: absolute;
+        left: 17px;
+        top: 12px;
+        display: inline-block;
+    }
+    
+    .left img {
+        width: 117px;
+        padding: 0px 24px;
+    }
+    
+    .left div {
+        text-align: center;
+    }
+    
+    .right {
+        position: absolute;
+        right: 17px;
+        top: 12px;
+        display: inline-block;
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+    }
+    
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 17px;
+    }
+    
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: maroon;
+        background: rgb(240, 251, 255);
+        text-decoration: underline;
+    }
+    
+    .mid {
+        display: block;
+        width: 44%;
+        margin: 40px auto;
+        /* border: 2px solid red; */
+    }
+    
+    .btn {
+        margin: 35px 7px;
+        border-radius: 6px;
+        background: rgb(141, 219, 245);
+        color: black;
+        border: 3px solid rgb(87, 208, 248);
+        font-size: 13px;
+        padding: 4px 6px;
+        cursor: pointer;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+    
+    .btn:hover {
+        color: maroon;
+        background-color: rgb(189, 235, 250);
+    }
+    
+    .container {
+        margin: 120px 540px;
+        padding: 0px 30px;
+        width: 27%;
+        border-radius: 7px;
+    }
+    
+    .center {
+        color: black;
+        margin-bottom: 7px;
+    }
+    
+    .form-group input {
+        color: black;
+        font-size: 14px;
+        width: 230px;
+        display: block;
+        border: 2px solid black;
+        text-align: center;
+        margin: 7px 0px;
+        padding: 7px 0px;
+        border-radius: 17px;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+    
+    .nextbtn {
+        margin: 9px 0px;
+        border-radius: 6px;
+        background: rgb(141, 219, 245);
+        color: black;
+        border: 3px solid rgb(87, 208, 248);
+        font-size: 13px;
+        padding: 4px 6px;
+        cursor: pointer;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+    
+    .nextbtn:hover {
+        color: maroon;
+        background-color: rgb(189, 235, 250);
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/lee-logo.png" alt="">
+            <div> <strong>LEENA's RESTAURANT</strong></div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li>
+                    <a href="#"><strong>OVERVIEW</strong></a></li>
+                <li>
+                    <a href="#"><strong>ORDER ONLINE</strong></a> </li>
+                <li>
+                    <a href="#"><strong>REVIEWS </strong></a></li>
+                <li>
+                    <a href="#"><strong>PHOTOS</strong></a></li>
+                <li>
+                    <a href="#"><strong>MENU</strong></a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn"> <strong>CALL</strong></button><button class="btn"> <strong>DIRECTION</strong></button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>STRONG & BEAUTIFUL JUST LIKE FOOD</h1>
+        <div class="center"><strong>#orderfood <br> FOR HOME DELIVERY , FILL YOUR DETAILS ~</strong></div>
+        <div class="form-group">NAME:
+            <input type="text" name="" placeholder="ENTER YOUR NAME">
+        </div>
+        <div class="form-group">ADDRESS:
+            <input type="text" name="" placeholder="ENTER YOUR ADDRESS">
+        </div>
+        <div class="form-group">MOBILE NUMBER:
+            <input type="text" name="" placeholder="ENTER YOUR MOBILE NUMBER">
+        </div>
+
+        <button class="nextbtn"><strong>NEXT</strong></button>
+
+    </div>
+</body>
+
+</html>
